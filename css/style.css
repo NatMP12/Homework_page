@@ -1,6 +1,6 @@
 body {
-  background: #fff;
-  color: #66666f;
+  background: rgb(245,245,245);
+  color: #000000;
   font-family: "Open Sans", sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -14,13 +14,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
 }
 
-    #foot .pa{
-      
-        margin-top: 50px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
 
+#foot .pa{
+  background-color: rgb(52, 152, 219 );
+   text-align: center;
+  padding: 30px;
+    }
 
  .up .img{
     display: inline-block;
@@ -39,19 +38,18 @@ h1, h2, h3, h4, h5, h6 {
     
 
       
-    
-}
-
-
+  
     
 
 
 /*--------------------------------------------------------------
-MENU
+MENU 
 --------------------------------------------------------------*/
+/*en version de escritorio */
     header{
         width: 100%;
-        background: #696969;
+        background-color: rgb(52, 152, 219 );
+
     }
     #btn-menu{
         display: none;
@@ -61,13 +59,16 @@ MENU
         width: 33px;
         height: 34px;
         justify-content: flex-end;
-        border-right: 1px solid #fff;
+        border-right: 1px solid rgb(52, 152, 219 );
     }
     header label:hover{
         cursor: pointer;
         background: rgba(0,0,0,0.3)
     }
 
+    .menu{
+      background-color: rgb(52, 152, 219 );
+    }
 
     .menu ul{
        margin:0;
@@ -77,7 +78,7 @@ MENU
         justify-content: flex-end;
     }
 .menu li{
-    border-right: 1px solid #fff;
+    border-right: 1px solid rgb(207, 207, 207);
 }
     .menu li:hover{
         background: rgba(0,0,0,0.3);
@@ -85,7 +86,7 @@ MENU
     .menu li a{
         display: block;
         padding: 10px 20px;
-        color: #fff;
+        color: rgb(0, 0, 0);
         text-decoration: none;
 
         
@@ -96,6 +97,7 @@ MENU
     left: -1px;
     padding: 3px;  
 }
+/*version  movil*/
     @media(max-width:768px){
        
          #logo{
@@ -110,11 +112,14 @@ MENU
        
         header label{
             display: block;
+            background-color:rgb(52, 152, 219 );
         }
         
+        
         .menu{
+            
             position: absolute;
-            background: #66666f;
+            background: rgb(52, 152, 219 );
             width: 70%;
             margin-left: -70%;
         }
@@ -136,7 +141,7 @@ Presentacion
   display: table;
   width: 100%;
   min-height: 94vh;
-  background: url(../img/fondo.jpg) top center;
+  background: url(../img/fondo1.jpg) top center;
   background-size: cover;
   margin-bottom: 50px;
 }
@@ -200,8 +205,4 @@ Presentacion
     }
     
     
-   
-    
-    /*--------------------------------------------------------------
-pie de pagina
---------------------------------------------------------------*/
+  }
