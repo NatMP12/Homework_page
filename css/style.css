@@ -1,0 +1,207 @@
+body {
+  background: #fff;
+  color: #66666f;
+  font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+#Contact_us{
+    margin-top: 50px;
+}
+
+    #foot .pa{
+      
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+ .up .img{
+    display: inline-block;
+    
+ position: fixed;
+    cursor: pointer;
+    bottom: 15px;
+    right: 15px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     z-index: 1;
+    
+}    
+    
+
+      
+    
+}
+
+
+    
+
+
+/*--------------------------------------------------------------
+MENU
+--------------------------------------------------------------*/
+    header{
+        width: 100%;
+        background: #696969;
+    }
+    #btn-menu{
+        display: none;
+    }
+    header label{
+        display: none;
+        width: 33px;
+        height: 34px;
+        justify-content: flex-end;
+        border-right: 1px solid #fff;
+    }
+    header label:hover{
+        cursor: pointer;
+        background: rgba(0,0,0,0.3)
+    }
+
+
+    .menu ul{
+       margin:0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+.menu li{
+    border-right: 1px solid #fff;
+}
+    .menu li:hover{
+        background: rgba(0,0,0,0.3);
+    }
+    .menu li a{
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+
+        
+    }
+#logo{
+    position:absolute;
+    
+    left: -1px;
+    padding: 3px;  
+}
+    @media(max-width:768px){
+       
+         #logo{
+            position: absolute;
+             text-align: right;
+            top: -43px;
+            left: 100% 
+               
+            
+            
+        }
+       
+        header label{
+            display: block;
+        }
+        
+        .menu{
+            position: absolute;
+            background: #66666f;
+            width: 70%;
+            margin-left: -70%;
+        }
+        .menu ul{
+            flex-direction: column;
+        }
+        .menu li{
+            border-top: 1px solid #fff;
+        }
+        #btn-menu:checked ~ .menu{
+            margin: 0;
+        }
+
+    }
+/*--------------------------------------------------------------
+Presentacion
+--------------------------------------------------------------*/
+#pres {
+  display: table;
+  width: 100%;
+  min-height: 94vh;
+  background: url(../img/fondo.jpg) top center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+@media (min-width: 1024px) {
+  #pres {
+    background-attachment: fixed;
+  }
+}
+
+
+#pres .pres-logo {
+  margin: 20px;
+}
+#pres .pres-logo img {
+     max-width: 50%;
+}
+#pres .pres-container {
+  background: rgba(0, 0, 0, 0.8);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+#pres h1 {
+  margin: 5px 0 5px 0;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  #pres h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+#pres h2 {
+  color: #999;
+}
+@media (max-width: 768px) {
+  #pres h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+    #fb{
+        padding: 2px;
+        margin: 0;
+        margin-right: 500px;
+       
+       
+    }
+    #tw{
+    
+    padding: 2px;
+    margin-top: 15px;
+    }
+    #plus{
+    margin-top: 20px;
+    padding: 2px;
+    }
+    
+    
+   
+    
+    /*--------------------------------------------------------------
+pie de pagina
+--------------------------------------------------------------*/
