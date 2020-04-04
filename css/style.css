@@ -2,13 +2,27 @@ body {
   background: rgb(245,245,245);
   color: #000000;
   font-family: "Open Sans", sans-serif;
+  
+
+  
 }
+.main{
+  padding-top: 4rem;
+}
+.section{
+  padding-top: 4rem;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 10px 0;
   padding: 0;
 }
+
+
 
 #Contact_us{
     margin-top: 50px;
@@ -49,6 +63,9 @@ MENU
     header{
         width: 100%;
         background-color: rgb(52, 152, 219 );
+       position: fixed;
+       z-index: 2;
+       
 
     }
     #btn-menu{
@@ -105,9 +122,7 @@ MENU
              text-align: right;
             top: -43px;
             left: 100% 
-               
-            
-            
+                                     
         }
        
         header label{
@@ -117,11 +132,11 @@ MENU
         
         
         .menu{
-            
             position: absolute;
             background: rgb(52, 152, 219 );
-            width: 70%;
+            width: 35%;
             margin-left: -70%;
+            transition: all 0.5s;
         }
         .menu ul{
             flex-direction: column;
@@ -138,6 +153,7 @@ MENU
 Presentacion
 --------------------------------------------------------------*/
 #pres {
+  
   display: table;
   width: 100%;
   min-height: 94vh;

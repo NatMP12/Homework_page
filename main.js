@@ -21,7 +21,10 @@ $(document).ready(function(){
     scrollTop: 0
           },700);
         return false; 
-});  
-       
+   });  
+  
+   
+ 
+
        
 });
