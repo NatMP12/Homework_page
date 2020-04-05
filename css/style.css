@@ -11,7 +11,13 @@ body {
   padding-top: 10px;
 }
 .list_obj{
-  font-size: medium;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+.list_obj1{
+  margin-top: 10px;
+  font-size: 15px;
   padding-top: 10px;
   margin-bottom: 5px;
 }
@@ -49,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(52, 152, 219 );
    text-align: center;
   padding: 30px;
+  
     }
 
  .up .img{
@@ -215,18 +222,21 @@ Presentacion
 #pres h2 {
   color: #999;
 }
+
+/*version movil */
 @media (max-width: 768px) {
   #pres h2 {
     font-size: 24px;
     line-height: 26px;
   }
+  #pres{
+    height: 100%;
+  }
     #tabla{
-        padding: 2px;
-        margin-left: 5px;
-        margin-right: 10px;
+        
         margin-bottom: 15px;
         height: 60%;
-        width: 350px;
+        max-width: 100%;
 
        
        
